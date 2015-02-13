@@ -17,15 +17,18 @@ while (precision != 0 and precision < p):
     precision = 0
 
     for i in range(10):
+        print 'Result ' + str(i + 1)
         print json_dict['d']['results'][i]['Title'].encode('utf-8')
         print json_dict['d']['results'][i]['Description'].encode('utf-8')
         print json_dict['d']['results'][i]['Url'].encode('utf-8')
-        relevance = raw_input('Relevant? yes/no: ')
-        if relevance == 'yes':
-            precision = precision + 1   
-    print precision
-    print p
-    print precision < p
+        relevance = raw_input('Relevant (Y/N): ')
+        if relevance == 'Y':
+            precision = precision + 1
+    print 'Precision\t='+ str(precision)
+    print 'Query\t=' + s
+#     print precision
+#     print p
+    #print precision < p
         
           
 
