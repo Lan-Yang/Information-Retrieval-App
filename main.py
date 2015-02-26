@@ -4,19 +4,24 @@ import json
 import re
 import math
 import operator
+import sys
 
 alpha = 1
 beta = 0.75
 gamma = 0.15
 
-s = raw_input('Please input word: ')
-p = int(round(input('Please input value: ') * 10))
+# s = raw_input('Please input word: ')
+accountKey = sys.argv[1]
+s = sys.argv[2]
+pstr = sys.argv[3]
+p = int(round(float(pstr) * 10))
+# p = int(round(input('Please input value: ') * 10))
 precision = 1
 
 while (precision != 0 and precision < p):
     # initialize search url
     bingUrl = r'https://api.datamarket.azure.com/Bing/Search/Web?Query=%27' +  s + '%27&$top=10&$format=JSON'
-    accountKey = 'Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0'
+    # accountKey = 'Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0'
     accountKeyEnc = base64.b64encode(accountKey + ':' + accountKey)
     headers = {'Authorization': 'Basic ' + accountKeyEnc}
     
@@ -28,6 +33,17 @@ while (precision != 0 and precision < p):
     
     precision = 0
     
+    # print parameters
+    print 'Parameters:'
+    # "Location: {0:20} Revision {1}".format(Location,Revision)
+    print "Client Key = {0:20}".format(accountKey)
+    print "Query = {0:20}".format(s)
+    print "Precision = {0:20}".format(pstr)
+    print "URL: " + bingUrl
+    print "Total no of results: 10"
+    print "Bing Search Results:"
+    print "======================="
+
     relevant_files = [0] * 10
     tf = []
     wif = {}
@@ -36,11 +52,13 @@ while (precision != 0 and precision < p):
         title = json_dict['d']['results'][i]['Title'].encode('utf-8')
         descrip = json_dict['d']['results'][i]['Description'].encode('utf-8')
         url = json_dict['d']['results'][i]['Url'].encode('utf-8')
-        
+
         print 'Result ' + str(i + 1)
-        print title
-        print descrip
-        print url
+        print '['
+        print "URL: " + url
+        print "Title: " + title
+        print "Summary: " + descrip
+        print ']'
         
         wordset = set(re.split(r'[^\w]+', descrip)) | set(re.split(r'[^\w]+', title))
         if '' in wordset:
@@ -93,7 +111,16 @@ while (precision != 0 and precision < p):
     vector.pop(term1, None)
     term2 = max(vector.iteritems(), key=operator.itemgetter(1))[0]
     
+    prios = s;
     s = s + '+' + term1 + '+' + term2
-            
-    print 'Precision = '+ str(precision)
-    print 'Query = ' + s
+    
+    # print feedback
+    print "======================="
+    print "FEEDBACK SUMMARY"
+    print "Query " + prios
+    if (precision < p):
+        print "Still below the desired precision of %s" %(pstr)
+    else:
+        print "Above the desired precision of %s"%(pstr)
+    print "Augmenting by %s %s"%(term1, term2)
+
