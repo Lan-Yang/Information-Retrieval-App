@@ -6,6 +6,7 @@ import math
 import operator
 import sys
 
+
 # define the parameters in algorithm
 alpha = 1
 beta = 0.75
@@ -24,6 +25,8 @@ p = int(round(float(pstr) * 10))
 # p = int(round(input('Please input value: ') * 10))
 precision = 1
 
+slist = s.split()
+s = "+".join(slist)
 augmented = []
 augmented.append(s)
 
