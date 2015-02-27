@@ -18,8 +18,8 @@ infile.close()
 
 # s = raw_input('Please input word: ')
 accountKey = sys.argv[1]
-s = sys.argv[2]
-pstr = sys.argv[3]
+pstr = sys.argv[2]
+s = sys.argv[3]
 p = int(round(float(pstr) * 10))
 # p = int(round(input('Please input value: ') * 10))
 precision = 1
@@ -55,7 +55,7 @@ while (precision != 0 and precision < p):
 
     relevant_files = [0] * 10
     tf = []
-    # wif = {}
+    wif = {}
 
     for i in range(10):
         title = json_dict['d']['results'][i]['Title'].encode('utf-8')
@@ -104,45 +104,56 @@ while (precision != 0 and precision < p):
     #         idf = math.log(float(10)/(wif[word]+1), 2)
     #         words[word] = words[word] * idf
     
-    vector = {}
-    for i in range(10):
-        if relevant_files[i] == 1:
-            coefficient = beta
-        elif relevant_files[i] == 0:
-            coefficient = -1 * gamma
-        for word in tf[i]:
-            if word not in vector:
-                vector[word] = coefficient * tf[i][word]
-            else:
-                vector[word] += coefficient * tf[i][word]
-       
-    term1 = max(vector.iteritems(), key=operator.itemgetter(1))[0]
-    vector.pop(term1, None)
-    term2 = max(vector.iteritems(), key=operator.itemgetter(1))[0]
-    
-    # find the top2 terms that are not augmented and not stopwords
-    term_count = 0
-    term = []
-    while term_count < 2:
-        term1 = max(vector.iteritems(), key=operator.itemgetter(1))[0]
-        vector.pop(term1, None)
-        term1 = term1.lower()
-        if term1 not in stopwords and term1 not in augmented:
-            term.append(term1)
-            term_count += 1
-    augmented.append(term[0])
-    augmented.append(term[1])
-    
-    prios = s
-    s = s + '+' + term[0] + '+' + term[1]
-    
     # print feedback
     print "======================="
     print "FEEDBACK SUMMARY"
     print "Query " + prios
     if (precision < p):
         print "Still below the desired precision of %s" %(pstr)
+
+        vector = {}
+        for i in range(10):
+            if relevant_files[i] == 1:
+                coefficient = beta
+            elif relevant_files[i] == 0:
+                coefficient = -1 * gamma
+            for word in tf[i]:
+                if word.lower() not in vector:
+                    vector[word.lower()] = coefficient * tf[i][word]
+                else:
+                    vector[word.lower()] += coefficient * tf[i][word]
+           
+        term1 = max(vector.iteritems(), key=operator.itemgetter(1))[0]
+        vector.pop(term1, None)
+        term2 = max(vector.iteritems(), key=operator.itemgetter(1))[0]
+        
+        # find the top2 terms that are not augmented and not stopwords
+        term_count = 0
+        term = []
+        temp = {}
+        print vector
+        for word in augmented:
+            temp[word] = vector[word]
+
+        while term_count < 2:
+            term1 = max(vector.iteritems(), key=operator.itemgetter(1))[0]
+            if term1 not in stopwords and term1 not in augmented:
+                term.append(term1)
+                term_count += 1
+                temp[term1] = vector[term1]
+                print "Indexing results ...."
+            vector.pop(term1, None)
+
+        augmented.append(term[0])
+        augmented.append(term[1])
+
+        print temp
+        
+        prios = s
+        s = s + '+' + term[0] + '+' + term[1]
+    
+        print "Augmenting by %s %s"%(term[0], term[1])
     else:
-        print "Above the desired precision of %s"%(pstr)
-    print "Augmenting by %s %s"%(term[0], term[1])
+        print "Desired precision reached, done"
+    
 
