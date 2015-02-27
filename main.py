@@ -7,7 +7,7 @@ import operator
 import sys
 
 
-# define the parameters in algorithm
+# define the parameters in Rocchio algorithm
 alpha = 1
 beta = 0.75
 gamma = 0.15
@@ -27,6 +27,8 @@ precision = 1
 
 slist = s.split()
 s = "+".join(slist)
+
+# store all the words already in the query
 augmented = []
 augmented.append(s)
 
@@ -58,7 +60,7 @@ while (precision != 0 and precision < p):
 
     relevant_files = [0] * 10
     tf = []
-    wif = {}
+    # wif = {}
 
     for i in range(10):
         title = json_dict['d']['results'][i]['Title'].encode('utf-8')
@@ -79,6 +81,7 @@ while (precision != 0 and precision < p):
         dic = {}
         count = 0
 
+        # calculate tf
         for word in wordset:
             count += 1
             if word in dic:
@@ -95,6 +98,7 @@ while (precision != 0 and precision < p):
             
         tf.append(dic)
         
+        # calculate precision according to feedback
         relevance = raw_input('Relevant (Y/N): ')
         if relevance == 'Y':
             relevant_files[i] = 1
@@ -110,10 +114,11 @@ while (precision != 0 and precision < p):
     # print feedback
     print "======================="
     print "FEEDBACK SUMMARY"
-    print "Query " + prios
+    print "Query " + s
     if (precision < p):
         print "Still below the desired precision of %s" %(pstr)
 
+        # Rocchio algorithm
         vector = {}
         for i in range(10):
             if relevant_files[i] == 1:
@@ -125,16 +130,12 @@ while (precision != 0 and precision < p):
                     vector[word.lower()] = coefficient * tf[i][word]
                 else:
                     vector[word.lower()] += coefficient * tf[i][word]
-           
-        term1 = max(vector.iteritems(), key=operator.itemgetter(1))[0]
-        vector.pop(term1, None)
-        term2 = max(vector.iteritems(), key=operator.itemgetter(1))[0]
-        
+
         # find the top2 terms that are not augmented and not stopwords
         term_count = 0
         term = []
         temp = {}
-        print vector
+
         for word in augmented:
             temp[word] = vector[word]
 
@@ -150,11 +151,14 @@ while (precision != 0 and precision < p):
         augmented.append(term[0])
         augmented.append(term[1])
 
-        print temp
-        
-        prios = s
-        s = s + '+' + term[0] + '+' + term[1]
-    
+        # refine the order by the weight
+        sort = [(k,v) for v,k in sorted([(v,k) for k,v in temp.items()],reverse=True)]
+        s = ""
+        for (key, value) in sort:
+            s += key + '+'
+        s = s[:-1]
+        print s
+
         print "Augmenting by %s %s"%(term[0], term[1])
     else:
         print "Desired precision reached, done"

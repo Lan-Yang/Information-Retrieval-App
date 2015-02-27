@@ -1,11 +1,11 @@
 1. Team:
-Peng Song (uni: )
+Peng Song (uni: ps2839)
 Lan Yang (uni: ly2331) 
 
 2. Files:
 main.py 			#python program
 stopwords.txt		#stop words list
-README
+README				#readme file
 
 3. Description of Running:
 To run our program, run the following command:
@@ -34,11 +34,15 @@ total number of words of the document. Since we care more about relevant result,
 weights to rw and iw. So the final weight is (a * rw - b * iw), in this program, a = 0.75, 
 b = 0.15. If the word does not appear in relevant result, its weight is 0.
 
-b. stop-words list
-We import a stop-words list to exclude stop words, like a, the, etc., from word set. In that way, weights of stop words will not be calculated. Furthermore, it prevents stop words from appearing in the top-2 words. This greatly improves both correctness and efficiency.
+b. stop words list
+We import a stop words list to exclude stop words, like a, the, etc., from word set. In that way, weights of stop words will not be calculated. Furthermore, it prevents stop words from appearing in the top 2 words. This greatly improves both correctness and efficiency.
+reference: http://www.webconfs.com/stop-words.php
 
 c. order of appended words
-We append words according to their weights. Word with highest weight will be appended first.
+We append words according to their weights. Word with highest weight will be appended first. Also in each iteration, we take all the words in the query into account, not just the 2 words augmented in this iteration.
+
+d. other checks
+We checked the uppercase and lowercase of the same word, to make sure the same word differ in case would not be augmented twice, like "Musk" and "musk". Also we checked to make sure words augmented in the query already won't be added twice.
 
 6. Bing Search Account Key:
 Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0
