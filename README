@@ -42,7 +42,7 @@ We import a stop words list to exclude stop words, like a, the, etc., from word 
 reference: http://www.webconfs.com/stop-words.php
 
 d. order of appended words
-We append words according to their weights. Word with highest weight will be appended first. Also in each iteration, we take all the words in the query into account, not just the 2 words augmented in this iteration.
+We ordered picked words according to their weights. Word with highest weight will be arranged at the first place. Also in each iteration, we take all the words in the query into account, not just the 2 words augmented in this iteration.
 
 e. other checks
 We checked the uppercase and lowercase of the same word, to make sure the same word differ in case would not be augmented twice, like "Musk" and "musk". Also we checked to make sure words augmented in the query already won't be added twice.

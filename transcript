@@ -1,0 +1,692 @@
+# Look for Elon Musk, starting with the query [musk]
+
+Parameters:
+Client Key = Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0
+Query = musk                
+Precision = 0.9                 
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27musk%27&$top=10&$format=JSON
+Total no of results: 10
+Bing Search Results:
+=======================
+Result 1
+[
+URL: http://en.wikipedia.org/wiki/Musk
+Title: Musk - Wikipedia, the free encyclopedia
+Summary: Musk is a class of aromatic substances commonly used as base notes in perfumery. They include glandular secretions from animals such as the musk deer, numerous plants ...
+]
+Relevant (Y/N): N
+Result 2
+[
+URL: http://en.wikipedia.org/wiki/Elon_Musk
+Title: Elon Musk - Wikipedia, the free encyclopedia
+Summary: Elon Reeve Musk (born June 28, 1971) is a South Africa-born, Canadian-American entrepreneur, engineer, inventor and investor. He is the CEO and CTO of ...
+]
+Relevant (Y/N): Y
+Result 3
+[
+URL: http://dictionary.reference.com/browse/musk
+Title: Musk | Define Musk at Dictionary.com
+Summary: The freezer case was full of curious meats: a snowy hunk of a fin whale's throat, a slab of musk ox. The resulting molecule is similar in shape and smell to the musk ...
+]
+Relevant (Y/N): N
+Result 4
+[
+URL: http://www.merriam-webster.com/dictionary/musk
+Title: Musk - Definition and More from the Free Merriam-Webster ...
+Summary: Full Definition of MUSK 1 a : a substance with a penetrating persistent odor obtained from a sac beneath the abdominal skin of the male musk deer and used as a ...
+]
+Relevant (Y/N): N
+Result 5
+[
+URL: http://www.fragrantica.com/notes/Musk-4.html
+Title: Musk perfume ingredient, Musk fragrance and essential oils ...
+Summary: Musk is a whole class of fragrant substances used as base notes in perfumery. This wonderful animalistic note creates a groundwork on which the rest of the aromatic ...
+]
+Relevant (Y/N): N
+Result 6
+[
+URL: http://www.thefreedictionary.com/musk
+Title: musk - definition of musk by The Free Dictionary
+Summary: musk (mŭsk) n. 1. a. A greasy secretion with a powerful odor, produced in a glandular sac in the abdomen of a male musk deer and used in traditional medicines and ...
+]
+Relevant (Y/N): N
+Result 7
+[
+URL: http://www.ebay.com/sch/i.html?_nkw=musk+oil
+Title: musk oil | eBay
+Summary: Find great deals on eBay for musk oil coty wild musk oil. Shop with confidence.
+]
+Relevant (Y/N): N
+Result 8
+[
+URL: http://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A3760911%2Ck%3Aperfume%20musk
+Title: Amazon.com: perfume musk: Beauty
+Summary: ASDM Beverly Hills Egyptian Musk, A Rich, Egyptian Musk With Precious Wood Blends and Floral Top Note., 0.5 Ounce. $25.00 $24.95 ;
+]
+Relevant (Y/N): N
+Result 9
+[
+URL: http://www.cooperlabs.com/Musk/
+Title: The Original Musk Oil - 1-800-645-5048 - Cooperlabs Skin ...
+Summary: The Original Musk Oil. Its ability to excite has been spoken of for centuries. You may not even be aware of its fragrance, but your own body chemistry is releasing ...
+]
+Relevant (Y/N): N
+Result 10
+[
+URL: http://www.genecards.org/cgi-bin/carddisp.pl?gene=MUSK
+Title: MUSK Gene - GeneCards | MUSK Protein | MUSK Antibody
+Summary: Complete information for MUSK gene (protein-coding), muscle, skeletal, receptor tyrosine kinase, including: function, proteins, disorders, pathways, orthologs, and ...
+]
+Relevant (Y/N): N
+=======================
+FEEDBACK SUMMARY
+Query musk
+Precision  0.1
+Still below the desired precision of 0.9
+Indexing results ....
+Indexing results ....
+reeve+28+musk
+Augmenting by reeve 28
+Parameters:
+Client Key = Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0
+Query = reeve+28+musk       
+Precision = 0.9                 
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27reeve+28+musk%27&$top=10&$format=JSON
+Total no of results: 10
+Bing Search Results:
+=======================
+Result 1
+[
+URL: http://en.wikipedia.org/wiki/Elon_Musk
+Title: Elon Musk - Wikipedia, the free encyclopedia
+Summary: Elon Reeve Musk (born June 28, 1971) is a South Africa-born, Canadian-American entrepreneur, engineer, inventor and investor. He is the CEO and CTO of ...
+]
+Relevant (Y/N): Y
+Result 2
+[
+URL: https://www.youtube.com/watch?v=v_fs_0pNiHA
+Title: Elon Musk: University Commencement Address (2012 Speech to ...
+Summary: Elon Reeve Musk (/ˈiːlɒn ˈmʌsk/; born June 28, 1971) is a South Africa-born, Canadian-American entrepreneur, engineer, inventor and investor. He is ...
+]
+Relevant (Y/N): Y
+Result 3
+[
+URL: http://www.letswibe.com/wibe/Elon-Musk/
+Title: Elon Musk-Wibe, Elon Reeve Musk (/ˈiːlɒn ˈmʌsk ...
+Summary: Elon Reeve Musk (/ˈiːlɒn ˈmʌsk/; born June 28, 1971) is a South Africa-born, Canadian-American entrepreneur, engineer, inventor and investor He is the CEO and ...
+]
+Relevant (Y/N): Y
+Result 4
+[
+URL: http://www.marketwatch.com/investing/stock/tsla/insiders?pid=63403856
+Title: TSLA Elon Reeve Musk Insider Trades for Tesla Motors Inc.
+Summary: Elon Reeve Musk. Mr. Elon R. Musk is Chairman at SolarCity Corp., ... Acquisition at $28.76 per share. 40,724,160: 02/18/2011: 15,969 : 0:
+]
+Relevant (Y/N): Y
+Result 5
+[
+URL: http://www.imdb.com/name/nm1907769/
+Title: Elon Musk - IMDb
+Summary: Elon Musk was born on June 28, 1971 in Pretoria, South Africa as Elon Reeve Musk. He is a producer and actor, known for Machete Kills (2013), Revenge of the Electric ...
+]
+Relevant (Y/N): Y
+Result 6
+[
+URL: http://dbpedia-live.openlinksw.com/resource/Elon_Musk
+Title: About: http://dbpedia.org/resource/Elon_Musk
+Summary: Elon Reeve Musk (/ˈiːlɒn ˈmʌsk/; born June 28, 1971) is a South Africa-born, Canadian American business magnate, inventor, and investor.
+]
+Relevant (Y/N): Y
+Result 7
+[
+URL: http://tstotopix.me/2015/02/01/episode-fact-files-the-musk-who-fell-to-earth/
+Title: Episode Fact File: The Musk Who Fell To Earth | The ...
+Summary: Elon Reeve Musk (born June 28, 1971) is a South African-born Canadian-American business magnate, inventor, and investor. Elon Musk Elon Musk in The Simpsons Episode ...
+]
+Relevant (Y/N): Y
+Result 8
+[
+URL: http://wholehomefurniture.net/view/elon-musk-spacex
+Title: Elon Musk Spacex | Whole Home Furniture
+Summary: Elon Musk Spacex. Elon musk - wikipedia, the free encyclopedia, Elon reeve musk (born june 28, 1971) is a south africa-born, canadian-american entrepreneur, engineer ...
+]
+Relevant (Y/N): Y
+Result 9
+[
+URL: http://www.imdb.com/name/nm1907769/bio
+Title: Elon Musk - Biography - IMDb
+Summary: Elon Musk was born on June 28, 1971 in Pretoria, South Africa as Elon Reeve Musk. He is a producer and actor, known for Machete Kills (2013), Revenge of the Electric ...
+]
+Relevant (Y/N): Y
+Result 10
+[
+URL: http://themeaningofthename.com/elon-musk/
+Title: Elon Musk - Birthday and Facts - The Meaning Of The Name
+Summary: Elon Reeve Musk (/ˈiːlɒn ˈmʌsk/; born June 28, 1971) is a South Africa-born, Canadian American business magnate, inventor, and investor. He is the CEO and CTO of ...
+]
+Relevant (Y/N): Y
+=======================
+FEEDBACK SUMMARY
+Query reeve+28+musk
+Precision  1.0
+Desired precision reached, done
+
+# Look for Bill Gates, starting with the query [gates]
+
+Parameters:
+Client Key = Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0
+Query = gates               
+Precision = 0.9                 
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27gates%27&$top=10&$format=JSON
+Total no of results: 10
+Bing Search Results:
+=======================
+Result 1
+[
+URL: http://www.gates.com/
+Title: Gates Corporation
+Summary: Gates Corporation is Powering Progress™ in the Oil & Gas, Energy, Mining, Marine, Agriculture, Transportation and Automotive Industries.
+]
+Relevant (Y/N): N
+Result 2
+[
+URL: http://www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Agates
+Title: Amazon.com: gates
+Summary: Product Description... Easy Open Extra Wide Safety Gate boasts 100 percent steel ...
+]
+Relevant (Y/N): N
+Result 3
+[
+URL: http://www.gatecrafters.com/design_your_gates.aspx
+Title: Driveway Gates | Automatic Gates | Electric Gates
+Summary: Driveway Gates - Automatic Gates The high-quality driveway gates from GateCrafters.com come in a wide variety of options to ...
+]
+Relevant (Y/N): N
+Result 4
+[
+URL: http://www.gates.com/industries/automotive
+Title: Gates Automotive Aftermarket Solutions | Gates Corporation
+Summary: Gates offers a complete line of original equipment (OE) automotive aftermarket products and solutions, including automotive hose, belts, & accessories.
+]
+Relevant (Y/N): N
+Result 5
+[
+URL: https://www.facebook.com/gatesnj
+Title: gates | Facebook
+Summary: Gates joined us after their session for an interview to discuss Nebraska, the "real Dan" and the finer points of recording a bass drum in a large empty room ...
+]
+Relevant (Y/N): N
+Result 6
+[
+URL: http://www.gatesbbq.com/
+Title: Gates Bar B.Q.
+Summary: With the tantalizing hickory barbecue smell drawing the customer through the ranch-style doors, he is immediately greeted.
+]
+Relevant (Y/N): N
+Result 7
+[
+URL: http://gateshousings.com/
+Title: Gates Underwater Products | 'Bulletproof' Housings
+Summary: Zsolt Sásdi demonstrates how to produce incredible underwater motion images with the Gates AX100 rig. His Demo Reel can be viewed in 4K. www.saser.hu...
+]
+Relevant (Y/N): N
+Result 8
+[
+URL: http://navigates.gates.com/
+Title: NaviGates - Gates Corporation
+Summary: Gates high quality belt & hose solutions support your energy, exploration, extraction, infrastructure, agriculture & transportation needs.
+]
+Relevant (Y/N): N
+Result 9
+[
+URL: http://www.toysrus.com/family/index.jsp?categoryId=2256222
+Title: Baby Gates - Babies"R"Us
+Summary: Safe & durable baby gates will keep your baby safe. Choose from a large assortment of baby gates including extra wide gates to suit your needs. Shop today.
+]
+Relevant (Y/N): N
+Result 10
+[
+URL: http://en.wikipedia.org/wiki/Bill_Gates
+Title: Bill Gates - Wikipedia, the free encyclopedia
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. Gates ...
+]
+Relevant (Y/N): Y
+=======================
+FEEDBACK SUMMARY
+Query gates
+Precision  0.1
+Still below the desired precision of 0.9
+Indexing results ....
+Indexing results ....
+inventor+28+gates
+Augmenting by 28 inventor
+Parameters:
+Client Key = Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0
+Query = inventor+28+gates   
+Precision = 0.9                 
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27inventor+28+gates%27&$top=10&$format=JSON
+Total no of results: 10
+Bing Search Results:
+=======================
+Result 1
+[
+URL: http://en.wikipedia.org/wiki/Bill_Gates
+Title: Bill Gates - Wikipedia, the free encyclopedia
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor.
+]
+Relevant (Y/N): Y
+Result 2
+[
+URL: https://www.facebook.com/BillGates2015
+Title: Bill Gates 2015 | Facebook
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor.
+]
+Relevant (Y/N): Y
+Result 3
+[
+URL: http://pateljay4u.com/uncategorized/caricatures/attachment/bill-gates/
+Title: Bill Gates - Patel Jay
+Summary: William Henry “Bill” Gates III is an American business magnate, philanthropist, investor, computer programmer, and inventor. Born: October 28, 1955
+]
+Relevant (Y/N): Y
+Result 4
+[
+URL: https://www.youtube.com/watch?v=36TxIo4oPN0
+Title: What Did Bill Gates Do for Computers and Information ...
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, investor, programmer, inventor and philanthropist. Gates is the ...
+]
+Relevant (Y/N): Y
+Result 5
+[
+URL: http://en.wikipedia.org/wiki/Learjet
+Title: Learjet - Wikipedia, the free encyclopedia
+Summary: Lear remained on the company board until April 2, 1969, ... Learjet 25 (Lear Jet & Gates Learjet) Learjet 28 (Gates Learjet) Learjet 29 (Gates Learjet) Learjet 31 ...
+]
+Relevant (Y/N): N
+Result 6
+[
+URL: http://inventors.about.com/od/gstartinventors/a/Bill_Gates.htm
+Title: Bill Gates - Biography - World of Famous Inventors and ...
+Summary: Bill Gates came from a family of entrepreneurship and high-spirited liveliness. William Henry Gates III was born in Seattle, Washington on October 28th, 1955.
+]
+Relevant (Y/N): Y
+Result 7
+[
+URL: http://inventors.about.com/
+Title: World of Famous Inventors and Inventions
+Summary: All about famous inventors and inventions, with biographies and interviews with inventors. Learn how to turn your own ideas into inventions.
+]
+Relevant (Y/N): N
+Result 8
+[
+URL: http://www.rink.cz/download/docs/1/apmu
+Title: bill gates zarobki
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. Gates.
+]
+Relevant (Y/N): Y
+Result 9
+[
+URL: http://sco.wikipedia.org/wiki/Bill_Gates
+Title: Bill Gates - Wikipedia
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate , investor, programmer, inventor an philanthropist. Gates is the umwhile chief ...
+]
+Relevant (Y/N): Y
+Result 10
+[
+URL: http://economic-gonews.rhcloud.com/show/bill-gates-wikipedia-the-free-encyclopedia/
+Title: Bill Gates Wikipedia The Free Encyclopedia | Complete PDF ...
+Summary: Read Bill gates wikipedia, the free encyclopedia and download Bill Gates Wikipedia The Free Encyclopedia, William henry "bill" gates iii (born october 28, 1955) is an ...
+]
+Relevant (Y/N): Y
+=======================
+FEEDBACK SUMMARY
+Query inventor+28+gates
+Precision  0.8
+Still below the desired precision of 0.9
+Indexing results ....
+Indexing results ....
+bill+gates+iii+28+inventor
+Augmenting by bill iii
+Parameters:
+Client Key = Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0
+Query = bill+gates+iii+28+inventor
+Precision = 0.9                 
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27bill+gates+iii+28+inventor%27&$top=10&$format=JSON
+Total no of results: 10
+Bing Search Results:
+=======================
+Result 1
+[
+URL: http://en.wikipedia.org/wiki/Bill_Gates
+Title: Bill Gates - Wikipedia, the free encyclopedia
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. Gates ...
+]
+Relevant (Y/N): Y
+Result 2
+[
+URL: http://www.redorbit.com/education/reference_library/technology_1/entrepreneurs-ceos/1112949830/bill-gates/
+Title: Bill Gates - Entrepreneurs | CEOs Reference Library - redOrbit
+Summary: William Henry “Bill” Gates III, Born October 28, 1955 is an American business magnate, investor, programmer, inventor and philanthropist. Gates is the former ...
+]
+Relevant (Y/N): Y
+Result 3
+[
+URL: http://www.youtube.com/watch?v=Ug5CgqZS9zE
+Title: What Did Bill Gates Do for Computers and Information ...
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, investor, programmer, inventor and philanthropist. Gates is the ...
+]
+Relevant (Y/N): Y
+Result 4
+[
+URL: https://www.facebook.com/BillGates2015
+Title: Bill Gates 2015 | Facebook
+Summary: Bill Gates 2015, Tallahassee, Florida ... William Henry "Bill" Gates III (born October 28, 1955) is an American... Facebook ... philanthropist, investor, computer ...
+]
+Relevant (Y/N): Y
+Result 5
+[
+URL: http://sco.wikipedia.org/wiki/Bill_Gates
+Title: Bill Gates - Wikipedia
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate , investor, programmer, inventor an philanthropist. Gates is the umwhile chief ...
+]
+Relevant (Y/N): Y
+Result 6
+[
+URL: https://www.youtube.com/watch?v=36TxIo4oPN0
+Title: What Did Bill Gates Do for Computers and Information ...
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, investor, programmer, inventor and philanthropist. Gates is the ...
+]
+Relevant (Y/N): Y
+Result 7
+[
+URL: http://www.hdwallpapersonly.com/bill-gates-quotes.html
+Title: Bill Gates Quotes - HD Wallpapers OnlyHD Wallpapers Only
+Summary: William Henry “Bill” Gates III (born October 28, 1955) is an American business magnate, investor, programmer, inventor and philanthropist. Bill Gates is the ...
+]
+Relevant (Y/N): Y
+Result 8
+[
+URL: http://www.legendshub.com/business/billgates/overview.html
+Title: William Henry "Bill" Gates III - Legends Hub
+Summary: William Henry "Bill" Gates III ... (born October 28, 1955) is an American programmer, inventor, ... and scientific research programs through the Bill & Melinda Gates ...
+]
+Relevant (Y/N): Y
+Result 9
+[
+URL: http://www.shortbiography.net/bill-gates/
+Title: Bill Gates | Short Biography
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor.
+]
+Relevant (Y/N): Y
+Result 10
+[
+URL: http://www.worldwideinvention.com/articles/details/18/Bill-Gates-fondator-Microsoft-.html
+Title: Bill Gates - fondator Microsoft - World Wide Invention ...
+Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, and chairman of Microsoft, the software company he founded ...
+]
+Relevant (Y/N): Y
+=======================
+FEEDBACK SUMMARY
+Query bill+gates+iii+28+inventor
+Precision  1.0
+Desired precision reached, done
+
+# Look for Columbia University, with the query [columbia]
+
+Parameters:
+Client Key = Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0
+Query = columbia            
+Precision = 0.9                 
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27columbia%27&$top=10&$format=JSON
+Total no of results: 10
+Bing Search Results:
+=======================
+Result 1
+[
+URL: http://www.columbia.com/
+Title: Shop Direct for Jackets, Pants, Shirts & Shoes | Columbia ...
+Summary: Shop direct from Columbia Sportswear. Buy Columbia jackets, pants, shirts, fleece, shoes, boots & sweaters. Visit our blog, watch videos & meet our athletes.
+]
+Relevant (Y/N): N
+Result 2
+[
+URL: http://www.columbia.edu/
+Title: Columbia University in the City of New York
+Summary: Founded in 1754 as King's College by royal charter, it is the oldest institution of higher learning in the State of New York. Located in New York City and a member of ...
+]
+Relevant (Y/N): Y
+Result 3
+[
+URL: http://en.wikipedia.org/wiki/Columbia
+Title: Columbia - Wikipedia, the free encyclopedia
+Summary: Columbia may refer to: Contents 1 Places 1.1 In North America 1.2 Elsewhere 1.3 In fiction 2 Companies 2.1 Music and entertainment 2.2 Other 3 Music 4 People 5 ...
+]
+Relevant (Y/N): N
+Result 4
+[
+URL: http://en.wikipedia.org/wiki/Colombia
+Title: Colombia - Wikipedia, the free encyclopedia
+Summary: Colombia, officially the Republic of Colombia, is a country situated in the northwest of South America, bordered to the northwest by Panama ; to the east by Venezuela ...
+]
+Relevant (Y/N): N
+Result 5
+[
+URL: http://columbiasc.net/
+Title: :: Welcome to the City of Columbia ::
+Summary: The Columbia City Hall, also known as Old United States Court House and Post Office, was built in 1870.It was listed on the National Register of Historic Places in 1973.
+]
+Relevant (Y/N): N
+Result 6
+[
+URL: http://www.gocolumbialions.com/
+Title: GoColumbiaLions.com—Official Web Site of Columbia ...
+Summary: The Official Online Home of the Columbia Lions, Columbia Athletics, Columbia University, Columbia Lions Official Merchandise, Columbia Lions broadcasting
+]
+Relevant (Y/N): N
+Result 7
+[
+URL: http://www.gocolumbiamo.com/
+Title: City of Columbia, Missouri's Official Government Web Site
+Summary: The City of Columbia Missouri's official web site. Perform business transactions, view services, department information, upcoming meetings and events.
+]
+Relevant (Y/N): N
+Result 8
+[
+URL: http://www.college.columbia.edu/
+Title: Columbia College | Columbia College
+Summary: Columbia College is pleased to share the Columbia College Annual Report 2013–2014, which celebrates our students’ and faculty members’ achievements, thanks our ...
+]
+Relevant (Y/N): Y
+Result 9
+[
+URL: http://www.parks.ca.gov/?page_id=552
+Title: Columbia SHP - California State Parks
+Summary: Location - Directions. Columbia State Historic Park is three miles north of Sonora, off Highway 49. The parks address is 11255 Jackson Street Columbia CA, 95310.
+]
+Relevant (Y/N): N
+Result 10
+[
+URL: http://www.columbia.com/mens/
+Title: Men's Outerwear - Hiking Clothing & Accessories | Columbia ...
+Summary: Shop online through the official Columbia Sportswear® website. Find men's jackets, shoes, mens boots, pants, fleece sweaters and shirts. Columbia Sportswear
+]
+Relevant (Y/N): N
+=======================
+FEEDBACK SUMMARY
+Query columbia
+Precision  0.2
+Still below the desired precision of 0.9
+Indexing results ....
+Indexing results ....
+college+pleased+columbia
+Augmenting by college pleased
+Parameters:
+Client Key = Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0
+Query = college+pleased+columbia
+Precision = 0.9                 
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27college+pleased+columbia%27&$top=10&$format=JSON
+Total no of results: 10
+Bing Search Results:
+=======================
+Result 1
+[
+URL: http://www.college.columbia.edu/
+Title: Columbia College | Columbia College
+Summary: Columbia College is pleased to share the Columbia College Annual Report 2013–2014, which celebrates our students’ and faculty members’ achievements, thanks our ...
+]
+Relevant (Y/N): Y
+Result 2
+[
+URL: http://www.columbia.edu/content/employment-columbia.html
+Title: Employment at Columbia | Columbia University in the City ...
+Summary: Opportunities at Columbia. Columbia University is committed to attracting, encouraging and retaining a highly qualified workforce to support our mission of excellence ...
+]
+Relevant (Y/N): Y
+Result 3
+[
+URL: http://www.ccis.edu/
+Title: Columbia College: On Campus & Online - Associate, Bachelor ...
+Summary: Columbia College Columbia College, providing adult education, distance learning, online degrees and education at more than 30 campuses across the country. Get an ...
+]
+Relevant (Y/N): Y
+Result 4
+[
+URL: http://www.columbia.edu/
+Title: Columbia University in the City of New York
+Summary: Columbia University in the City of New York. http://home.columbia.edu/content/romare-bearden-black-odyssey. Last Chance to See Romare Bearden's Black Odyssey
+]
+Relevant (Y/N): Y
+Result 5
+[
+URL: http://www.college.columbia.edu/news/columbia-college-annual-report-2013-2014
+Title: The Columbia College Annual Report 2013–2014 | Columbia ...
+Summary: Columbia College (212) 851-0291 ssgross@columbia.edu. Columbia College. Columbia University in the City of New York 208 Hamilton Hall, Mail Code 2805 1130 Amsterdam ...
+]
+Relevant (Y/N): Y
+Result 6
+[
+URL: http://www.colum.edu/
+Title: Columbia College Chicago
+Summary: When you attend Columbia College Chicago, your home is one of the most active, vibrant, forward-thinking cities in the world.
+]
+Relevant (Y/N): N
+Result 7
+[
+URL: http://www.columbiastate.edu/
+Title: Columbia State Community College
+Summary: Columbia State Community College is pleased to announce the return of its Girls ... The donations were delivered to The Family Center in Columbia and God's Storehouse ...
+]
+Relevant (Y/N): N
+Result 8
+[
+URL: http://undergrad.admissions.columbia.edu/sites/default/files/cu_supplement_12-13.pdf
+Title: Columbia University Supplement to The Common Application
+Summary: 4 Short Answer Questions (Continued) For applicants to Columbia College, please tell us what from your current and past experiences (either academic or personal ...
+]
+Relevant (Y/N): Y
+Result 9
+[
+URL: http://undergrad.admissions.columbia.edu/apply/writing-supplement
+Title: The Columbia Writing Supplement to the Common Application ...
+Summary: ugrad-ask@columbia.edu Street Address & Contact Info. Related Websites. Columbia College; Columbia Engineering; Alumni Representative Committee; ... Columbia ...
+]
+Relevant (Y/N): Y
+Result 10
+[
+URL: http://engineering.columbia.edu/ben-horowitz-%E2%80%9988cc-speak-class-day
+Title: Ben Horowitz ’88CC to Speak at Class Day | The Fu ...
+Summary: “We are very pleased to have Ben Horowitz as our Class Day speaker this year,” said ... “As a Columbia College graduate with both a BS and MS in computer ...
+]
+Relevant (Y/N): Y
+=======================
+FEEDBACK SUMMARY
+Query college+pleased+columbia
+Precision  0.8
+Still below the desired precision of 0.9
+Indexing results ....
+Indexing results ....
+columbia+college+university+city+pleased
+Augmenting by university city
+Parameters:
+Client Key = Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0
+Query = columbia+college+university+city+pleased
+Precision = 0.9                 
+URL: https://api.datamarket.azure.com/Bing/Search/Web?Query=%27columbia+college+university+city+pleased%27&$top=10&$format=JSON
+Total no of results: 10
+Bing Search Results:
+=======================
+Result 1
+[
+URL: https://www.college.columbia.edu/
+Title: Columbia College, Columbia University
+Summary: Columbia College is pleased to share the Columbia College Annual Report 2013–2014, ... Columbia University in the City of New York 208 Hamilton Hall, Mail Code 2805
+]
+Relevant (Y/N): Y
+Result 2
+[
+URL: http://www.columbia.edu/content/employment-columbia.html
+Title: Employment at Columbia | Columbia University in the City ...
+Summary: Opportunities at Columbia. Columbia University is committed to attracting, encouraging and retaining a highly qualified workforce to support our mission of excellence ...
+]
+Relevant (Y/N): Y
+Result 3
+[
+URL: http://www.columbia.edu/
+Title: Columbia University in the City of New York
+Summary: Columbia University in the City of New York. ... THE ARTS AT COLUMBIA. ... © 2015 Columbia University. Contact; Computing; Employment;
+]
+Relevant (Y/N): Y
+Result 4
+[
+URL: http://www.colum.edu/
+Title: Columbia College Chicago
+Summary: ... music and theatre right here at Columbia. What are you looking for? ... In Our City , Creatives Rule. When ... © 2015 Columbia College Chicago Suggest an Edit to ...
+]
+Relevant (Y/N): N
+Result 5
+[
+URL: http://www.ccis.edu/
+Title: Columbia College: On Campus & Online - Associate, Bachelor ...
+Summary: Columbia College Columbia College, providing adult education, distance learning, ... along with several hundred other colleges and universities. ...
+]
+Relevant (Y/N): Y
+Result 6
+[
+URL: http://bulletin.columbia.edu/columbia-college/?tab=advise
+Title: Columbia College Bulletin < Columbia College | Columbia ...
+Summary: Columbia College Bulletin; Print Options. ... Columbia College at Columbia University in the City of New York. About the College. Our Mission; Meet Our Staff; Contact Us;
+]
+Relevant (Y/N): Y
+Result 7
+[
+URL: http://housing.columbia.edu/
+Title: Home | Housing - Columbia University
+Summary: Columbia University in the City of New York. Housing. ... Columbia Housing is pleased to announce the launch of its new Guidebook app. ... Barnard College.
+]
+Relevant (Y/N): Y
+Result 8
+[
+URL: http://colleges.startclass.com/compare/2701-2740/Barnard-College-vs-Columbia-University-in-the-City-of-New-York
+Title: Barnard College vs Columbia University in the City of New ...
+Summary: Compare Colleges: Barnard College vs Columbia University in the City of New York. Find out how these two colleges stack up against each other. All Topics. Join.
+]
+Relevant (Y/N): Y
+Result 9
+[
+URL: http://tccolumbia.uloop.com/jobs/view.php/173002461/Kforce-Finance-and-Accounting-Bookkeeper
+Title: Bookkeeper at Teachers College, Columbia University (TC ...
+Summary: Find Bookkeeper at Teachers College, Columbia University ... Brooklyn College College of Staten Island City College of ... Please Select Your College/University:
+]
+Relevant (Y/N): Y
+Result 10
+[
+URL: http://web.ccis.edu/Offices/Registrar/Evaluations/TransferGuides/TransferEquivalencyPortal.aspx
+Title: TransferEquivalencyPortal: Columbia College: Office of the ...
+Summary: Course equivalencies for articulated schools are guaranteed for the catalog years listed in the Columbia College Transfer Equivalency Portal. For more information ...
+]
+Relevant (Y/N): Y
+=======================
+FEEDBACK SUMMARY
+Query columbia+college+university+city+pleased
+Precision  0.9
+Desired precision reached, done

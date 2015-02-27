@@ -143,7 +143,8 @@ while (precision != 0 and precision < p):
         augmented.append(term[1])
 
         # refine the order by the weight
-        sort = [(k,v) for v,k in sorted([(v,k) for k,v in temp.items()],reverse=True)]
+        tmp = sorted([(v,k) for k,v in temp.items()],reverse=True)
+        sort = [(k,v) for v,k in tmp]
         s = ""
         for (key, value) in sort:
             s += key + '+'
