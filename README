@@ -18,11 +18,11 @@ $python main.py <bing account key><precision><query>
 4. Internal Design:
 a. Receive user's input, bing account key, a query and a precision value. 
 b. Retrive the top-10 results for query from Bing. For each result, store words extracted from 
-retrived result's title and summary to the word set. Notice that stop words are excluded from 
-the word set. According to user's feedback (relevant or irrelevant),  we calculate and 
-normalize each word's weight.
+retrived result's title and summary to the word set. According to user's feedback (relevant or irrelevant),  we calculate and normalize each word's weight.
 c. Recalculate precision, if it's above or equal to target precision, then stop. If it's below 
-target precision, pick the top-2 words from word set and append them to query. Go to step b.
+target precision, pick the top-2 words from word set and append them to query. Notice that if 
+stop words rank among top-2, we ignore them, and pick next non-stop words with highest weights.
+Go to step b.
 
 5. Query-modification Method:
 a. Rocchio algorithm

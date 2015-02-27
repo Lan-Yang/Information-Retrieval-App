@@ -17,12 +17,10 @@ infile = open("stopwords.txt", "r")
 stopwords = [line.strip() for line in infile]
 infile.close()
 
-# s = raw_input('Please input word: ')
 accountKey = sys.argv[1]
 pstr = sys.argv[2]
 s = sys.argv[3]
 p = int(round(float(pstr) * 10))
-# p = int(round(input('Please input value: ') * 10))
 precision = 1
 
 slist = s.split()
@@ -49,7 +47,6 @@ while (precision != 0 and precision < p):
     
     # print parameters
     print 'Parameters:'
-    # "Location: {0:20} Revision {1}".format(Location,Revision)
     print "Client Key = {0:20}".format(accountKey)
     print "Query = {0:20}".format(s)
     print "Precision = {0:20}".format(pstr)
@@ -60,7 +57,6 @@ while (precision != 0 and precision < p):
 
     relevant_files = [0] * 10
     tf = []
-    # wif = {}
 
     for i in range(10):
         title = json_dict['d']['results'][i]['Title'].encode('utf-8')
@@ -91,10 +87,6 @@ while (precision != 0 and precision < p):
         
         for word in dic:
             dic[word] = float(dic[word])/count
-            # if word not in wif:
-            #     wif[word] = 1
-            # else:
-            #     wif[word] += 1
             
         tf.append(dic)
         
@@ -105,16 +97,12 @@ while (precision != 0 and precision < p):
             precision = precision + 1
         else:
             relevant_files[i] = 0
-    
-    # for words in tf:
-    #     for word in words:
-    #         idf = math.log(float(10)/(wif[word]+1), 2)
-    #         words[word] = words[word] * idf
-    
+
     # print feedback
     print "======================="
     print "FEEDBACK SUMMARY"
     print "Query " + s
+    print "Precision " ,float(precision)/10
     if (precision < p):
         print "Still below the desired precision of %s" %(pstr)
 
