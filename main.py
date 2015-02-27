@@ -17,6 +17,7 @@ infile = open("stopwords.txt", "r")
 stopwords = [line.strip() for line in infile]
 infile.close()
 
+# read in the arguments
 accountKey = sys.argv[1]
 pstr = sys.argv[2]
 s = sys.argv[3]
@@ -24,6 +25,8 @@ p = int(round(float(pstr) * 10))
 precision = 1
 
 slist = s.split()
+for i in range(len(slist)):
+    slist[i] = slist[i].lower()
 s = "+".join(slist)
 
 # store all the words already in the query
