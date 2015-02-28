@@ -1,6 +1,6 @@
 1. Team:
-Peng Song (uni: ps2839)
-Lan Yang (uni: ly2331) 
+Peng Song
+Lan Yang
 
 2. Files:
 main.py 			#python program
@@ -48,5 +48,5 @@ e. other checks
 We checked the uppercase and lowercase of the same word, to make sure the same word differ in case would not be augmented twice, like "Musk" and "musk". Also we checked to make sure words augmented in the query already won't be added twice.
 
 6. Bing Search Account Key:
-Ib4wTA9BOGjrp2Nug7wqKJN3Sjw++0u84wcBY5oN8U0
+xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
